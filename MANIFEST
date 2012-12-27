@@ -1,0 +1,22 @@
+lib/Attribute/Contract.pm
+lib/Attribute/Contract/Modifier/Ensures.pm
+lib/Attribute/Contract/Modifier/Requires.pm
+lib/Attribute/Contract/Modifier/Throws.pm
+lib/Attribute/Contract/TypeValidator.pm
+Makefile.PL
+MANIFEST			This list of files
+README.pod
+t/lib/TestBase.pm
+t/lib/TestLoader.pm
+t/suite.t
+t/tests/ContractEnsuresTest.pm
+t/tests/ContractRequiresTest.pm
+t/tests/ContractTest.pm
+t/tests/ContractTest/InheritContract.pm
+t/tests/ContractTest/InheritContractButChange.pm
+t/tests/ContractTest/InheritContractWithOverride.pm
+t/tests/ContractTest/WithContract.pm
+t/tests/ContractThrowsTest.pm
+t/tests/TypeValidatorTest.pm
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
