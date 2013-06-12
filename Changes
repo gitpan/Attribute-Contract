@@ -1,0 +1,6 @@
+Revision history for perl module Attribute::Contract
+
+0.03 2013-06-12T09:38:42Z
+
+ - Use cpanfile
+ - Use Type::Tiny
