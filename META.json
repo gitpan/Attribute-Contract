@@ -43,7 +43,7 @@
             "Carp" : "0",
             "Exporter" : "0",
             "Scalar::Util" : "0",
-            "Type::Tiny" : "0",
+            "Type::Tiny" : "0.006",
             "perl" : "5.012"
          }
       },
@@ -57,7 +57,7 @@
    "provides" : {
       "Attribute::Contract" : {
          "file" : "lib/Attribute/Contract.pm",
-         "version" : "0.03"
+         "version" : "0.04"
       },
       "Attribute::Contract::Modifier::Ensures" : {
          "file" : "lib/Attribute/Contract/Modifier/Ensures.pm"
@@ -83,7 +83,7 @@
          "web" : "https://github.com/vti/attribute-contract"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
       "Viktor Turskyi <koorchik@gmail.com>",
       "vti <viacheslav.t@gmail.com>"
