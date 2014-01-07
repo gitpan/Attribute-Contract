@@ -1,5 +1,6 @@
 Changes
 LICENSE
+README.md
 README.pod
 cpanfile
 lib/Attribute/Contract.pm
@@ -7,6 +8,7 @@ lib/Attribute/Contract/Modifier/Ensures.pm
 lib/Attribute/Contract/Modifier/Requires.pm
 lib/Attribute/Contract/Modifier/Throws.pm
 lib/Attribute/Contract/Utils.pm
+minil.toml
 t/aliases.t
 t/ensures.t
 t/inheritance.t

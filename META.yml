@@ -10,12 +10,12 @@ configure_requires:
   CPAN::Meta::Prereqs: 0
   Module::Build: 0.38
 dynamic_config: 0
-generated_by: 'Minilla/v0.4.3, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Minilla/v0.7.5, CPAN::Meta::Converter version 2.130880'
 license: unknown
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
-name: attribute-contract
+name: Attribute-Contract
 no_index:
   directory:
     - t
@@ -25,10 +25,11 @@ no_index:
     - eg
     - examples
     - author
+    - builder
 provides:
   Attribute::Contract:
     file: lib/Attribute/Contract.pm
-    version: 0.04
+    version: 0.05
   Attribute::Contract::Modifier::Ensures:
     file: lib/Attribute/Contract/Modifier/Ensures.pm
   Attribute::Contract::Modifier::Requires:
@@ -47,7 +48,7 @@ resources:
   bugtracker: https://github.com/vti/attribute-contract/issues
   homepage: https://github.com/vti/attribute-contract
   repository: git://github.com/vti/attribute-contract.git
-version: 0.04
+version: 0.05
 x_contributors:
   - 'Viktor Turskyi <koorchik@gmail.com>'
   - 'vti <viacheslav.t@gmail.com>'
